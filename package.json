@@ -5,6 +5,7 @@
     "preinstall": "echo PREINSTALL > /tmp/yarn-vuln-poc-EXPLOITED_PREINSTALL.txt",
     "install": "echo INSTALL > /tmp/yarn-vuln-poc-EXPLOITED_INSTALL.txt",
     "postinstall": "echo POSTINSTALL > /tmp/yarn-vuln-poc-EXPLOITED_POSTINSTALL.txt",
-    "prepare": "echo PREPARE > /tmp/yarn-vuln-poc-EXPLOITED_PREPARE.txt"
+    "prepare": "echo PREPARE > /tmp/yarn-vuln-poc-EXPLOITED_PREPARE.txt",
+    "prepack": "echo PREPACK > /tmp/yarn-vuln-poc-EXPLOITED_PREPACK.txt"
   }
 }
